@@ -13,5 +13,13 @@
     "express": "^4.18.2",
     "mysql": "^2.18.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DEMETRIUSCARTER/Employee-Tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DEMETRIUSCARTER/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/DEMETRIUSCARTER/Employee-Tracker#readme",
   "description": ""
 }

@@ -1,25 +1,28 @@
 // importing express and mysql
 const express = require("express");
-const mysql = require("mysql");
+const mysql = require('mysql2');
+const app = express();
 
 // database connection
 const db = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "test",
-    database: "nodemysql",
-});
+    host: 'localhost',
+    user: 'root',
+    password: 'Xira8433!',
+    database: 'nodemysql',
+  });
+  
 
 //mySQL connection
 db.connect((err) => {
-    if (err) {
-        throw err;
+   if (err) {
+  
+      throw err;
+  
     }
+  
     console.log("MySql Connected");
-});
-
-// express module creating web server
-const app = express();
+  
+  });
 
 // creating database
 app.get("/createdb", (req,res) => {
@@ -46,6 +49,10 @@ app.get("/createEmployee", (req, res) => {
         res.send("Employee table created");
     });
 });
+
+app.get("/messages", (req, res) => {
+    res.send("Hello");
+ });
 
     //employee 1
     app.get("/employee1", (req,res) => {
