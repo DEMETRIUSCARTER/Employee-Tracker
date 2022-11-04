@@ -22,6 +22,7 @@ MySQL
 
 
 ## Project Status
+Application is currently not functioning properly.
 
 Completed with the assistance of this tutorial :  https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-mysql#how_to_create_and_manage_an_employee_database
 
